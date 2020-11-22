@@ -43,7 +43,7 @@ footer
 	float: bottom;
 }
 #navbar {
-	background-color: #cdd1de;
+	background-color: #434a50;
 	overflow: hidden;
 	width: 100%;
 	position: fixed;
@@ -69,8 +69,8 @@ footer
 	float: left;
 }
 #navbar-container li a:link, li a:visited {
-  background-color: #cdd1de;
-  color: #434a50;
+  background-color: #434a50;
+  color: #B8860B;
   padding: 20px 25px;
   text-align: center;
   text-decoration: none;
@@ -78,14 +78,14 @@ footer
 }
 #navbar-comtainer a:hover, li a:active {
   background-color: #434a50;
-  color:cdd1de;
+  color:B8860B;
 }
 #nav-link {
 	margin-right: 0px;
 	margin-top: 0px;
 }
 #nav-link a:link, a:visited {
-  background-color: #cdd1de;
+  background-color: #B8860B;
   color: #434a50;
   padding: 14px 25px;
   text-align: center;
@@ -94,6 +94,6 @@ footer
   width:260px;
 }
 #nav-link a:hover, a:active {
-  background-color: #434a50;
-  color: #cdd1de;
+  background-color: #B8860B;
+  color: #434a50;
 }
