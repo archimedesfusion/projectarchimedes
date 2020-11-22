@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Roboto&display=swap');
+ 
+
 body
 {background-color: #434a50;
 }
@@ -6,16 +9,91 @@ h1
 {
 	text-align: center;
 	color: #B8860B;
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
 }
 
+h4
+{
+	font-family: 'Roboto', sans-serif;
+}
 p
 {
 	color: #cdd1de;
+	font-family: 'Chakra Petch', sans-serif;
 }
 
-
-
+.banner
+{
+	float:right;
+	
+}
+.nobullet
+{
+	list-style-type:none;
+	font-style:italic;
+}
 i
 {
 	color: #e6c26e;
+}
+
+footer
+{
+	float: bottom;
+}
+#navbar {
+	background-color: #cdd1de;
+	overflow: hidden;
+	width: 100%;
+	position: fixed;
+	margin-top: 0;
+	top: 0px;
+}
+#navbar-container {
+	position: relative;
+	float: left;
+	left: 50%;
+	display: block;
+}
+#navbar-container ul {
+	position: relative;
+	float: left;
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	right: 50%;
+}
+#navbar-container ul li{
+	float: left;
+}
+#navbar-container li a:link, li a:visited {
+  background-color: #cdd1de;
+  color: #434a50;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#navbar-comtainer a:hover, li a:active {
+  background-color: #434a50;
+  color:cdd1de;
+}
+#nav-link {
+	margin-right: 0px;
+	margin-top: 0px;
+}
+#nav-link a:link, a:visited {
+  background-color: #cdd1de;
+  color: #434a50;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width:260px;
+}
+#nav-link a:hover, a:active {
+  background-color: #434a50;
+  color: #cdd1de;
 }
