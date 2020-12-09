@@ -16,8 +16,10 @@ h1
 h4
 {
 	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+	color: #e6c26e;
 }
-p
+p, li
 {
 	color: #cdd1de;
 	font-family: 'Chakra Petch', sans-serif;
